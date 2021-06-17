@@ -4150,5 +4150,5 @@ input, select, textarea {
 
 	.headshot{
 		width: 25vw;
-		/* height: 50vh; */
+		border-radius: .5em;
 	}
