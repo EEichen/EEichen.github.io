@@ -1931,7 +1931,8 @@ input, select, textarea {
 		input[type="button"],
 		button,
 		.button {
-			padding: 0;
+			padding-right: .5em;
+			padding-left: .5em;
 		}
 
 	}
@@ -2385,7 +2386,7 @@ input, select, textarea {
 			}
 
 	.image {
-		box-shadow: 0 0 0 4px #ffffff, 0 0 0 5px #e6e6e6;
+		box-shadow: 0 0 5px 2px rgba(245, 222, 179, 0.5);
 	}
 
 		.image.phone {
@@ -2754,15 +2755,13 @@ input, select, textarea {
 	}
 
 		.spotlight .image {
-			width: 30%;
-			border-radius: 100%;
+			width: 50%;
 			margin: 0 3em 0 0;
 			display: block;
 		}
 
 			.spotlight .image img {
 				display: block;
-				border-radius: 100%;
 				width: 100%;
 			}
 
@@ -4155,11 +4154,13 @@ input, select, textarea {
 		display: flex;
 		align-items: center;
 		flex-direction: column;
+		background-image: url(images/overlay.png);
 	}
 
 	#two{
 		background-color: rgba(0, 0, 0, .8);
 		color: wheat;
+		background-image: url(images/overlay.png);
 	}
 
 	#skill-title{
@@ -4251,4 +4252,13 @@ input, select, textarea {
 
 	.skills-list > li{
 		align-self: center;
+	}
+
+	.project-links > a{
+		color: white !important;
+	}
+
+	.project-links > a:hover{
+		background-color: rgba(245, 222, 179, 0.144);
+
 	}
