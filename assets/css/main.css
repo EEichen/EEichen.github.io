@@ -4148,7 +4148,61 @@ input, select, textarea {
 
 	}
 
+	#one{
+		background-color: wheat;
+	}
+
+	#pyico{
+		width: 22px;
+		height: 22px;
+		position: relative;
+		top: 5px;
+	}
+
+	#js-ico{
+		color: black;
+	}
+
+	#exico{
+		background-color: white;
+		padding: 2px;
+		font-size: smaller;
+	}
+
+	#react-ico{
+		color: #3089e2;
+	}
+
+	#sioico{
+		height: 22px;
+		width: 22px;
+		position: relative;
+		top: 3px;
+	}
+
+	#flaskico{
+		height: 22px;
+		width: 22px;
+		position: relative;
+		top: 3px;
+	}
+
+	#dockerico{
+		color: #5ca3e8;
+	}
+
 	.headshot{
 		width: 25vw;
 		border-radius: .5em;
+	}
+
+	.skills-list{
+		margin-left: 30%;
+		list-style: none;
+		color: rgba(0, 0, 0, .8);
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		max-width: 50vw;
+		padding: 0;
 	}
