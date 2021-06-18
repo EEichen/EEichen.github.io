@@ -324,10 +324,6 @@ input, select, textarea {
 		color: #828282;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
-		/* color: #828282; */
-	}
-
 	blockquote {
 		border-left-color: #e6e6e6;
 	}
@@ -3639,7 +3635,7 @@ input, select, textarea {
 		#header button,
 		#header .button {
 			background-color: transparent;
-			color: #ffffff !important;
+			color: lightcyan !important;
 			box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
 		}
 
@@ -4255,10 +4251,15 @@ input, select, textarea {
 	}
 
 	.project-links > a{
-		color: white !important;
+		color: lightcyan !important;
+		box-shadow: inset 0px 0px 2px lightcyan;
 	}
 
 	.project-links > a:hover{
 		background-color: rgba(245, 222, 179, 0.144);
 
+	}
+
+	#projects-title{
+		text-align: center;
 	}
