@@ -4210,22 +4210,22 @@ input, select, textarea {
 	}
 
 	#pgico{
-		height: 22px;
-		width: 22px;
+		height: 20px;
+		width: 20px;
 		position: relative;
 		top: 5px;
 	}
 
 	#tddico{
-		height: 22px;
-		width: 22px;
+		height: 20px;
+		width: 20px;
 		position: relative;
 		top: 5px;
 	}
 
 	#sqlizeico{
-		height: 22px;
-		width: 22px;
+		height: 20px;
+		width: 20px;
 		position: relative;
 		top: 5px;
 	}
@@ -4247,4 +4247,8 @@ input, select, textarea {
 		padding: 5px;
 		border-radius: 2px;
 		box-shadow: 0px 0px 5px rgba(255, 255, 255, .75);
+	}
+
+	.skills-list > li{
+		align-self: center;
 	}
