@@ -4308,3 +4308,8 @@ input, select, textarea {
 		color: lightcyan !important;
     	box-shadow: inset 0px 0px 2px lightcyan;
 	}
+
+	ul.actions.special > li > .button:hover {
+		background-color: rgba(245, 222, 179, 0.144);
+		
+	}
