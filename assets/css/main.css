@@ -2718,7 +2718,7 @@ input, select, textarea {
 
 		header.major:after {
 			content: '';
-			border-bottom: solid 2px #e6e6e6;
+			border-bottom: solid 2px rgba(245, 222, 179, 0.5);
 			display: block;
 			width: 4em;
 			margin: 2em auto 0 auto;
@@ -3325,10 +3325,6 @@ input, select, textarea {
 				}
 
 			.wrapper.style2 strong, .wrapper.style2 b {
-				color: #828282;
-			}
-
-			.wrapper.style2 h1, .wrapper.style2 h2, .wrapper.style2 h3, .wrapper.style2 h4, .wrapper.style2 h5, .wrapper.style2 h6 {
 				color: #828282;
 			}
 
@@ -4159,6 +4155,12 @@ input, select, textarea {
 		background-image: url(images/overlay.png);
 	}
 
+	#three{
+		background-color: rgba(0, 0, 0, .8);
+		color: wheat;
+		background-image: url(images/overlay.png);
+	}
+
 	#skill-title{
 		color: wheat;
 	}
@@ -4227,6 +4229,25 @@ input, select, textarea {
 		top: 5px;
 	}
 
+	#liico{
+		background-color: #0a66c2;
+		padding: 3px;
+		padding-right: 4px;
+		border-radius: 2px;
+		color: white;
+	}
+
+	#alico{
+		height: 20px;
+		width: 20px;
+		position: relative;
+		top: 5px;
+		left: 0;
+		background-color: white;
+		padding: 2px;
+		border-radius: 50%;
+	}
+
 	.headshot{
 		width: 25vw;
 		max-width: 250px;
@@ -4267,4 +4288,21 @@ input, select, textarea {
 
 	.inner{
 		padding: 5px;
+	}
+
+	.my-email{
+		background-color: wheat;
+		list-style: none;
+		color: rgba(0, 0, 0, .8);
+		margin-right: auto;
+		margin-left: auto;
+		max-width: 40vw;
+		padding: 5px;
+		border-radius: 2px;
+		box-shadow: 0px 0px 5px rgba(255, 255, 255, .75);
+	}
+
+	ul.actions.special > li > .button {
+		color: lightcyan !important;
+    	box-shadow: inset 0px 0px 2px lightcyan;
 	}
