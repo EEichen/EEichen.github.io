@@ -3133,7 +3133,7 @@ input, select, textarea {
 
 		.wrapper.style2 {
 			background-color: #fbfbfb;
-			color: #999999;
+			color: wheat;
 		}
 
 			.wrapper.style2 input[type="submit"],
@@ -4312,4 +4312,27 @@ input, select, textarea {
 	ul.actions.special > li > .button:hover {
 		background-color: rgba(245, 222, 179, 0.144);
 		
+	}
+
+	#about {
+		background-color: rgba(0, 0, 0, .8);
+		border-top: 2px solid rgba(245, 222, 179, 0.5);
+		border-bottom: 0px solid rgba(245, 222, 179, 0.5);
+		padding-top: 2%;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		background-image: url(images/overlay.png);
+	}
+
+	#about-title{
+		color: wheat;
+	}
+
+	#about-title::after{
+		content: '';
+		border-bottom: solid 2px rgba(245, 222, 179, 0.5);
+		display: block;
+		width: 4em;
+		margin: 2em auto 0 auto;
 	}
