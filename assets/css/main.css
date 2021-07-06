@@ -4167,10 +4167,10 @@ input, select, textarea {
 	}
 
 	#pyico{
-		width: 22px;
-		height: 22px;
+		width: 1em;
+		height: 1em;
 		position: relative;
-		top: 5px;
+		top: .2em;
 	}
 
 	#js-ico{
@@ -4187,18 +4187,25 @@ input, select, textarea {
 		color: #3089e2;
 	}
 
-	#sioico{
-		height: 22px;
-		width: 22px;
+	#redux-ico{
+		width: 1em;
+		height: 1em;
 		position: relative;
-		top: 3px;
+		top: .2em;
+	}
+
+	#sioico{
+		height: 1em;
+		width: 1em;
+		position: relative;
+		top: .2em;
 	}
 
 	#flaskico{
-		height: 22px;
-		width: 22px;
+		height: 1em;
+		width: 1em;
 		position: relative;
-		top: 3px;
+		top: .2em;
 	}
 
 	#dockerico{
@@ -4210,24 +4217,24 @@ input, select, textarea {
 	}
 
 	#pgico{
-		height: 20px;
-		width: 20px;
+		height: 1em;
+		width: 1em;
 		position: relative;
-		top: 5px;
+		top: .2em;
 	}
 
 	#tddico{
-		height: 20px;
-		width: 20px;
+		height: 1em;
+		width: 1em;
 		position: relative;
-		top: 5px;
+		top: .2em;
 	}
 
 	#sqlizeico{
-		height: 20px;
-		width: 20px;
+		height: 1em;
+		width: 1em;
 		position: relative;
-		top: 5px;
+		top: .2em;
 	}
 
 	#liico{
@@ -4239,10 +4246,10 @@ input, select, textarea {
 	}
 
 	#alico{
-		height: 20px;
-		width: 20px;
+		height: 1em;
+		width: 1em;
 		position: relative;
-		top: 5px;
+		top: .2em;
 		left: 0;
 		background-color: white;
 		padding: 2px;
@@ -4259,7 +4266,7 @@ input, select, textarea {
 		background-color: wheat;
 		/* margin-left: 30%; */
 		list-style: none;
-		/* font-size: xx-large; */
+		font-size: xx-large;
 		color: rgba(0, 0, 0, .8);
 		display: flex;
 		flex-wrap: wrap;
@@ -4336,7 +4343,15 @@ input, select, textarea {
 		border-bottom: solid 2px rgba(245, 222, 179, 0.5);
 		display: block;
 		width: 4em;
-		margin: 2em auto 0 auto;
+		margin: 1em auto 0 auto;
+	}
+
+	#skill-title::after{
+		content: '';
+		border-bottom: solid 2px rgba(245, 222, 179, 0.5);
+		display: block;
+		width: 4em;
+		margin: 1em auto 0 auto;
 	}
 
 	#about-me{
