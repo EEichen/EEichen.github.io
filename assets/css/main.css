@@ -3840,8 +3840,8 @@ input, select, textarea {
 			-ms-transform: translateX(0);
 			transform: translateX(0);
 			opacity: 1;
-			text-align: right;
-			margin: -3.5em 4em 0 0;
+			text-align: center;
+			/* margin: -3.5em 4em 0 0; */
 		}
 
 			#header .content > :last-child {
