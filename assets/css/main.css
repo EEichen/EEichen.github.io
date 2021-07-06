@@ -4259,6 +4259,7 @@ input, select, textarea {
 		background-color: wheat;
 		/* margin-left: 30%; */
 		list-style: none;
+		/* font-size: xx-large; */
 		color: rgba(0, 0, 0, .8);
 		display: flex;
 		flex-wrap: wrap;
@@ -4271,6 +4272,7 @@ input, select, textarea {
 
 	.skills-list > li{
 		align-self: center;
+		margin-bottom: 5px;
 	}
 
 	.project-links > a{
@@ -4335,4 +4337,9 @@ input, select, textarea {
 		display: block;
 		width: 4em;
 		margin: 2em auto 0 auto;
+	}
+
+	#about-me{
+		margin-left: 5%;
+		margin-right: 5%;
 	}
